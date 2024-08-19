@@ -8,5 +8,6 @@
 - **Graph Visualization**: Nodes are movable, and edges are stretchable for easy manipulation and exploration.
 - **Technology Stack**: Built with React and `vis-network` for dynamic graph rendering.
 - **Responsive UI**: Includes styled buttons and footer, with smooth transitions and hover effects.
+  ![alt text](/images/image.png)
 
 # More coming soon....
