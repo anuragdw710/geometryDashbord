@@ -64,3 +64,13 @@ textarea {
   border-radius: 10px;
   margin: 10px;
 }
+.footer {
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
