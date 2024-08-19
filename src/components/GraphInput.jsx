@@ -20,6 +20,10 @@ const GraphInput = ({ onSubmit }) => {
       setError("Invalid number of nodes or edges.");
       return;
     }
+    if (lines.length != m + 1) {
+      setError("Invalid number of edges.");
+      return;
+    }
 
     const edges = [];
 
