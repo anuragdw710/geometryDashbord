@@ -15,7 +15,7 @@ body {
   border-bottom: 5px solid blue;
 }
 .form-box {
-  background-color: red;
+  background-color: blue;
   display: flex;
   flex-direction: column;
   padding: 10px;
