@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(254, 254, 220);
+  margin: 15px;
+}
+.main-heading {
+  padding: 10px;
+  margin: 5px;
+  font-weight: bold;
+  border-bottom: 5px solid blue;
+}
+.form-box {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.button:hover {
+  color: white;
+  background-color: black;
+}
+
+.button:active {
+  background-color: #000000;
+  transform: scale(0.95);
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 30% auto;
+}
+
+textarea {
+  padding: 10px;
+  margin: 5px;
+}
