@@ -5,7 +5,6 @@
 }
 
 body {
-  background-color: rgb(254, 254, 220);
   margin: 15px;
 }
 .main-heading {
@@ -16,7 +15,7 @@ body {
   border-radius: 10px;
 }
 .form-box {
-  background-color: rgb(88, 88, 242);
+  background-color: #00aaff;
   display: flex;
   flex-direction: column;
   padding: 10px;
