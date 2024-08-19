@@ -13,12 +13,15 @@ body {
   margin: 5px;
   font-weight: bold;
   border-bottom: 5px solid blue;
+  border-radius: 10px;
 }
 .form-box {
-  background-color: blue;
+  background-color: rgb(88, 88, 242);
   display: flex;
   flex-direction: column;
   padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 .button {
@@ -54,4 +57,10 @@ body {
 textarea {
   padding: 10px;
   margin: 5px;
+}
+
+.figure-box {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
 }

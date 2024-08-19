@@ -57,7 +57,7 @@ const GraphComponent = ({ graphData }) => {
     };
   }, [graphData]);
 
-  return <div ref={containerRef} style={{ border: "1px solid black" }} />;
+  return <div ref={containerRef} className="figure-box" />;
 };
 
 export default GraphComponent;
